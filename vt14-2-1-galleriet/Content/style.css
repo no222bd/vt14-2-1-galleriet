@@ -1,0 +1,146 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------- End of CSS Reset --------------- */
+
+body {
+    font-family: Calibri, Arial, sans-serif;
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+}
+
+header {
+    padding: 0.75em 0 0.25em;
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    font-size: 3.25em;
+    font-weight: 700;
+}
+
+#content {
+    margin: 0.5em 0;
+}
+
+#ImageBox {
+    max-width: 800px;
+    max-height: 600px;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+#ShownImage {
+    max-width: 800px;
+    max-height: 600px;
+}
+
+
+#Thumbnails {
+    margin-bottom: 0.5em;
+    width:800px;
+}
+
+#Thumbnails li {
+    float:left;
+    padding:0.5em 0.8em;
+}
+
+fieldset {
+    clear:both;
+    border: 2px solid black;
+    padding: 0.5em;
+}
+
+footer {
+    text-align:center;
+    font-style:italic;
+    border-top: 2px solid black;
+    font-size: 0.8em;
+    padding: 0.5em;
+}
+
+a {
+    padding: 0.25em 0.25em 0.10em;
+    display:block;
+}
+
+a.currentImage {
+    background-color: green;
+}
+
+span {
+    color: red;
+    font-weight:900;
+}
+
+#ErrorMessage, #SuccessMessage {
+    text-align: center;
+    color: red;
+    font-size: 3em;
+    margin: 2em 0 0;
+}
+
+#ErrorMessage, #SuccessMessage {
+    color: green;
+}
+
+#BackLink {
+    display: block;
+    text-align: center;
+    margin: 1em 0 3em;
+}
+
+.ValSummary {
+    color: blue;
+    display: inline;
+}
